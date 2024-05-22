@@ -1,0 +1,63 @@
+.containerTurns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-content: center;
+    gap: 20px;
+    min-height: 70px;
+    width: 85vw;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 3px 4px 8px var(--color-black, 0.8);
+}
+
+.containerTurns h2 {
+    align-content: center;
+    padding-left: 15px;
+}
+
+.containerTurns div {
+    align-content: center;
+    text-align: center;
+}
+
+.active {
+    align-content: center;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.cancelled {
+    align-content: center;
+    text-align: center;
+    color: var(--color-red);
+}
+
+.buttonCancel {
+    text-align: end;
+    padding-right: 15px;
+}
+
+.buttonCancel:disabled {
+    pointer-events: none;
+}
+
+.buttonCancel:hover {
+    color: var(--color-red);
+}
+
+@media (max-width: 950px) {
+    .containerTurns {
+        height: 250px;
+        width: 200px;
+        margin: 0px 20px 30px 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .buttonCancel {
+        padding: 0px;
+        text-align: center;
+    }
+}

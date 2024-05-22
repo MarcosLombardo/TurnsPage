@@ -1,0 +1,76 @@
+/* Reset de estilos */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+ol,
+li,
+form,
+label,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    scroll-behavior: smooth;
+}
+
+/* Elementos de bloque */
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+form,
+ul,
+ol,
+dl,
+fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+/* Eliminar estilos de lista */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Imágenes */
+img {
+    border: 0;
+}
+
+/* Elementos de formulario */
+button,
+input,
+select,
+textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+/* Botones */
+button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}

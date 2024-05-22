@@ -1,0 +1,65 @@
+.containerTurnos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.containerTurnos h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: var(--color-black);
+}
+
+.containerTurnos p {
+    color: var(--color-black);
+    text-align: center;
+    width: 500px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.containerTurnos h6 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    color: var(--color-red);
+}
+
+.botonTurno {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 30px;
+    background-color: var(--color-white);
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: var(--color-blue);
+    box-shadow: 3px 3px 8px var(--color-black);
+}
+
+.botonTurno:hover {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    box-shadow: 3px 3px 8px var(--color-red);
+}
+
+.containerMisTurnos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 950px) {
+    .containerMisTurnos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 700px) {
+    .containerTurnos h1 {
+        font-size: 40px;
+    }
+}

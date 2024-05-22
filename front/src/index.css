@@ -1,0 +1,39 @@
+/* Colores */
+
+:root {
+    --color-orange: #d79551;
+    --color-black: #2c2c2c;
+    --color-white: #f5eee1;
+    --color-blue: #60879e;
+    --color-red: #c36961;
+    --color-green: #609e87;
+    --color-grey: #c4c0c2;
+    --color-brown: #583e26;
+}
+
+/* Creación de fuentes */
+
+@font-face {
+    font-family: "Tox Typewriter";
+    src: url(./assets/fonts/Tox-Typewriter.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url(./assets/fonts/Helvetica.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Helvetica Bold";
+    src: url(./assets/fonts/Helvetica-Bold.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Peach Cake";
+    src: url(./assets/fonts/Peach-Cake.otf) format("truetype");
+}
+
+/* Estilos generales del bosy */
+
+body {
+    background-image: url(./assets/img/Background.png);
+    font-family: "Tox Typewriter", sans-serif;
+    margin: 0;
+}

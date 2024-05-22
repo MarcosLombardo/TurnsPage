@@ -1,0 +1,117 @@
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    margin: 1em;
+}
+
+.containerForm h1 {
+    font-size: 50px;
+    text-align: center;
+    color: var(--color-black);
+    margin-bottom: 10px;
+}
+
+.box {
+    width: 500px;
+    background: var(--color-black);
+    padding: 1.5rem;
+    padding-top: 0.75rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 20px var(--color-black, 0.8);
+}
+
+.formGroup {
+    position: relative;
+    margin: 30px 0;
+    border-bottom: 2px solid var(--color-white);
+    border-right: 2px solid var(--color-white);
+    border-radius: 10px;
+}
+
+.formGroup .inputs {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    color: var(--color-white);
+    cursor: text;
+}
+
+.formGroup .labels {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: var(--color-white);
+    transition: 0.5s;
+    top: -5px;
+}
+
+.box p {
+    text-align: center;
+    color: var(--color-white);
+    padding: 10px 0;
+}
+
+.box p > a {
+    color: var(--color-red);
+}
+
+.box p > a:hover {
+    text-decoration: underline;
+}
+
+.buttonForm {
+    font-family: "Tox Typewriter", sans-serif;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 1.5em;
+    background-color: var(--color-white);
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px var(--color-white, 0.5);
+}
+
+.buttonForm:hover {
+    background: var(--color-red);
+    color: var(--color-white);
+    box-shadow: 2px 2px 5px var(--color-blue, 0.5);
+}
+
+.buttonForm:disabled {
+    pointer-events: none;
+    box-shadow: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.errores {
+    color: var(--color-red);
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 80vw;
+    }
+
+    .inputs,
+    .labels {
+        font-size: 1rem;
+    }
+}

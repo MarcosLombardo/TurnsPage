@@ -1,0 +1,27 @@
+.containerHome {
+    margin-top: 20px;
+}
+
+.containerHome h1 {
+    color: var(--color-black);
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.containerHome h4 {
+    color: var(--color-black);
+    font-size: 50px;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+    .containerHome h1 {
+        font-size: 80px;
+    }
+    .containerHome h4 {
+        font-size: 40px;
+    }
+}

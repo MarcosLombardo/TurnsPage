@@ -1,0 +1,107 @@
+.containerNavBar {
+    display: flex;
+    background-color: var(--color-black);
+    margin: 10px;
+    padding: 10px;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contLogo,
+.contNav,
+.contPerf {
+    flex: 1 1 0;
+}
+
+.contPerf {
+    text-align: end;
+    padding: 15px;
+}
+
+.contNav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 80px;
+    margin: 0px 10px;
+}
+
+.logo h2 {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 2em;
+    letter-spacing: 5px;
+    color: var(--color-white);
+}
+
+nav a {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    padding: 0 20px;
+    color: var(--color-white);
+}
+
+nav a:hover {
+    color: var(--color-red);
+    text-shadow: 5px 3px 5px var(--color-blue, 0.5);
+}
+
+.perfilLink {
+    background-color: var(--color-white);
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 1.2em;
+    color: var(--color-black);
+    box-shadow: 2px 2px 5px var(--color-white, 0.5);
+}
+
+.perfilLink:hover {
+    background-color: var(--color-red);
+    color: var(--color-white);
+    pointer-events: visible;
+    box-shadow: 2px 2px 5px var(--color-blue, 0.5);
+}
+
+.active {
+    color: var(--color-red);
+    border-bottom: 2px solid var(--color-red);
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    .containerNavBar {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+
+    nav a {
+        font-size: 1.2em;
+    }
+
+    .contPerf {
+        margin: 10px 0px;
+    }
+
+    .perfilLink {
+        font-size: 1em;
+    }
+}
