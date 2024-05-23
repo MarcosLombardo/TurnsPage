@@ -1,90 +1,90 @@
 # !Que Corte! ✄
 
-## Description
+## Descripción
 
-This project is a website for managing shifts in a barbershop. It uses a combination of modern technologies to provide a fluid and interactive user experience. The site has several key sections and functionalities.
+Este proyecto es un sitio web para gestionar los turnos en una barbería. Utiliza una combinación de tecnologías modernas para ofrecer una experiencia de usuario fluida e interactiva. El sitio tiene varias secciones y funcionalidades clave.
 
-## Technologies Used
+## Tecnologías utilizadas
 
 ### Frontend
 
-- **React** with JavaScript
-- **CSS** with style modules
+- **React** con JavaScript
+- **CSS** con style modules
 
 ### Backend
 
 - **TypeScript**
 - **PostgreSQL**
 
-## Functionalities
+## Funcionalidades
 
-### Static Sections
+### Secciones estáticas
 
-- **Home:** Home page with general information.
-- **About:** Section on the barbershop and its equipment.
+- **Home:** Página de inicio con información general y servicios que ofrece la barbería.
+- **About:** Sección sobre la barbería y su equipamiento y personal.
 
-### Registration and Login
+### Registro e inicio de sesión
 
-- **User Registration:** Allows new users to create an account.
-- **Login:** Allows existing users to log in to their account.
+- **Registro de usuarios:** Permite a los nuevos usuarios crear una cuenta.
+- **Inicio de sesión:** Permite a los usuarios existentes acceder a su cuenta.
 
-### Shift Management (Registered Users Only)
+### Gestión de turnos (sólo usuarios registrados)
 
-- **See Shifts:** Users can see the shifts they have already taken.
-- **Take New Shift:** Users can make a new appointment by filling in a form.
-- **Cancel Shifts:** Users can cancel shifts they have already taken.
+- **Ver Turnos:** Los usuarios pueden ver los turnos que ya han tomado.
+- **Tomar Nuevo Turno:** Los usuarios pueden hacer una nueva cita rellenando un formulario.
+- **Cancelar Turnos:** Los usuarios pueden cancelar los turnos que ya han tomado.
 
-### Installation
+### Instalación
 
-To run this project on your local machine, follow these steps:
+Para ejecutar este proyecto en tu máquina local, sigue estos pasos:
 
-1. **Clone the repository:**
+1. **Clonar el repositorio:**
    ```bash
    git clone https://github.com/TuUsuario/TurnsPage.git
 
-2. **Navigate to the project directory:**
+2. **Navegue hasta el directorio del proyecto:**
    ```bash
    cd TurnsPage
 
 ## Frontend
 
-1. **Install dependencies:**
+1. **Instalar dependencias:**
    ```bash
    cd frontend
    npm install
 
-2. **Start the React application:**
+2. **Inicie la aplicación React:**
    ```bash
    npm start
 
-3. **Open the project in your browser:**
+3. **Abra el proyecto en su navegador:**
    ```bash
-   Go to http://localhost:3000 to see the application in action.
+   Visite 'http://localhost:3000' para ver la aplicación en acción.
 
 ## Backend
 
-1. **Navigate to the backend directory:**
+1. **Navegue hasta el directorio backend:**
    ```bash
    cd backend
 
-2. **Install dependencies:**
+2. **Instalar dependencias:**
    ```bash
    npm install
 
 3. **Configurar la base de datos:**
-- Make sure you have PostgreSQL installed and running.
-- Create an .env file in the root of the backend directory with the connection to your PostgreSQL database.
+- Asegúrese de que tiene PostgreSQL instalado y funcionando.
+- Cree un archivo .env en la raíz del directorio backend con la conexión a su base de datos PostgreSQL.
    ```bash
    DATABASE_URL=postgres://usuario:contraseña@localhost:5432/nombre-de-tu-bd
 
-4. **Start the server:**
+4. **Iniciar el servidor:**
    ```bash
    npm start
 
-5. **The server will be available at:**
+5. **El servidor estará disponible en:**
    ```bash
    http://localhost:4000
 
-## Author
+## Autor
 
-Created by **Marcos Pedro Lombardo**. If you have any questions, feel free to contact me.
+Creado por **Marcos Pedro Lombardo**. Si tiene alguna pregunta, no dude en ponerse en contacto conmigo.
